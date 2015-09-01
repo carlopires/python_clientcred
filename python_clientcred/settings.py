@@ -87,7 +87,7 @@ TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
 
 from django.conf import global_settings
 TEMPLATE_CONTEXT_PROCESSORS = global_settings.TEMPLATE_CONTEXT_PROCESSORS + (
-  'django.core.context_processors.request',
+    'django.core.context_processors.request',
 )
 
 LOGGING = {
